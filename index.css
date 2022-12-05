@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap');
+ 
+/* font-family: 'Big Shoulders Text', cursive; */
+.fitness-section {
+    width: 30%;
+}
+.image {
+    background-image: url('https://wallpapercave.com/wp/wp1874155.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+  
+  }
+  .text-success{
+    float: top;
+  }
+  .wap
+  {
+    float:right;
+  }
+  #wa{
+    text-align: justify;
+     display: block;
+     margin: 0,auto;
+  }
+  .section-intro {
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:visible;
+}
+
+  
+.link-to-book-wrapper {
+    flex: 1;
+}
+ 
+
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+ 
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+ .about-sectio {
+position:relative;
+top:49%;
+left:37%;
+font-weight:bolder ;
+color:burlywood;
+ }
+p.about-section {
+    text-align:center;
+    position: relative;
+    top: 43%;
+    left:3%;
+    right:1%;
+    width: 90%;
+    font-size:1.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-section h3 {
+    text-align: center;
+    font-weight:bolder;
+    color:rgb(79, 238, 79);
+}
+.dinner
+{
+    color:brown;
+}
+.carousel-inner {
+    height: 700px;
+    
+}
+ img.d-blocks,img.d-block_w-100,img.d-block-w-100{
+    max-width :20%
+    
+ }
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+ 
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+ 
+.btn.btn-primary {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    background-color: #95999e;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+ 
+.btn.btn-primary:hover {
+    background-color: #747474;
+}
+.opening-time,
+.contact-address {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+}
+ 
+.form-group p {
+    font-size: 1.2em;
+}
+ 
+.opening-time p span,
+.contact-address p span {
+    display: block;
+}
+ 
+@media (min-width:577px) and (max-width: 800px) {
+ 
+    .section-intro {
+        height: 500px;
+    }
+ 
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+ 
+    .carousel-inner {
+        height: auto;
+    }
+ 
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+ 
+@media screen and (max-width: 576px) {
+    .section-intro {
+        height: 300px;
+    }
+ 
+    .about-section {
+        padding: 30px;
+    }
+ 
+    .section-intro h1 {
+        font-size: 2em;
+    }
+ 
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+ 
+    .carousel-inner {
+        height: auto;
+    }
+ 
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+ 
+    .form-group p {
+        font-size: 15px;
+    }
+ 
+    .opening-time p span,
+    .contact-address p span {
+        font-size: 15px;
+        text-align: center;
+    }
+ 
+}
